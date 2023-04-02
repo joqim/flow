@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function CardComponent(props) {
   return (
-    <Card sx={{ maxWidth: 1100, minHeight: 170 }} style={{ marginBottom: "30px"}}>
+    <Card sx={{ maxWidth: 1100, minHeight: 170 }} style={{ marginBottom: "30px", marginRight: "120px"}}>
       <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
