@@ -16,7 +16,6 @@ const PORT = 7002;
 const CLIENT_URL = "http://localhost:3000";
 
 let robinhood;
-
 let ROBINHOOD_AUTH_CODE;
 
 app.use(json());
