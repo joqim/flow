@@ -1,4 +1,13 @@
 {
+    "name": "flowapi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --exec babel-node server.js",
+      "heroku-postbuild": "cd client && npm install && npm run build"
+    },
     "dependencies": {
         "@passageidentity/passage-node": "^1.4.0",
         "mongodb": "^5.1.0",
@@ -11,4 +20,4 @@
         "splitwise": "^1.0.0"
     },
     "type": "module"
-}
+  }
