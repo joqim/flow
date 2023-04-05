@@ -12,7 +12,7 @@ import PassageNode from "@passageidentity/passage-node";
 import { db, connect, close } from './db.js';
 
 const app = express();
-const PORT = 7002;
+const PORT = process.env.PORT || 7002;
 const CLIENT_URL = "http://localhost:3000";
 
 let robinhood;
